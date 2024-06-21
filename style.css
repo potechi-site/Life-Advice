@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    color: #486b00;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "IBM Plex Sans";
+}
+
+header {
+    height: 100px;
+    padding: 15px;
+    background-color: #A2C523;
+    border-bottom: 5px solid #486b00;
+}
+
+.header-left {
+    float: left;
+    width: calc(100% - 100px);
+}
+
+.header-logo {
+    background-color: #486b00;
+    border-radius: 20px;
+
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.header-title {
+    overflow: hidden;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    width: calc(100% - 120px);
+}
+
+.header-right {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
